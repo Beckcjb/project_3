@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<title> John Runs Dos </title>
+	</head>
+
+	<style >
+            body {background-color: 000066}
+            body{text-align: center}
+           
+            body{ margin:0; padding:0; height:100%; width:100%; }
+            div.mainContent{
+                height:100%;
+                width:100%;
+                overflow:auto; 
+          
+            }
+            h1{color: white}
+            p{color: white}
+			h2{color: white}
+          
+     
+	</style>
+	<body>
+		<h1> John Runs Dos</h1>
+		<div id="gameport"></div>
+	
+		<h1> Instructions </h1>
+		<p> To play the Game select the Play tile</br  >
+			To view the content credits select the Credits tile</br  >
+			To view how to play the game select the Tutorial tile</br >
+			THANK YOU FOR PLAYING!</p>
+		
+		<h2> Comments </h2>
+		<div id="disqus_thread"></div>
+		<script>
+		(function() {
+		var d = document, s = d.createElement('script');
+		s.src = 'http://nau-cs413.disqus.com/embed.js';
+		s.setAttribute('data-timestamp', +new Date());
+		(d.head || d.body).appendChild(s);
+		})(); 
+		</script>
+		<script src="tileUtilities.js"></script>
+		<script src="tweenjs.min.js"></script>
+		<script src="pixi.js"></script>
+		<script src="game.js"></script>
+
+		
+	</body>
+</html>  
